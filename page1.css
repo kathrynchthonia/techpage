@@ -1,0 +1,292 @@
+@font-face {
+	font-style: normal;
+	font-weight: normal;
+}
+html, body, h1, h2, h3, p, ol, ul, li, a , button {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family: 'Geostar Fill', Helvetica, Arial, "Times New Roman", sans-serif;
+}
+html{
+	background-color: black;
+	background: url(images/fiberoptic.jpg);
+	background-repeat: no-repeat;
+	background-position: top-center;
+	background-attachment: fixed;
+	background-size: 100%;
+	
+}
+header {
+	padding: 4%;
+	width: 100%;
+	border: .2em 0 .2em 0 solid black;
+	background: url(images/tech2.jpg);
+	background-position: 0, -20%;
+	background-size: 90%;
+}
+.foot {
+	position: absolute;
+	padding: 1%;
+	background-color: rgba(0, 0, 0, 0.75);
+	width: 100%;
+	top: 55em;
+}
+.foot p {
+	color: white;
+}
+.sidebar a {
+	display: block;
+	padding: 2%;
+	border: .2em solid black;
+	border-radius: .3em;
+	box-shadow: 0 .3em .6em rgba(0, 0, 0, 0.75);
+	width: 200%;
+	background-color: rgba(0, 0, 0, 0);
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s ease;
+}
+
+	
+.sidebar {
+	width: 10%;
+	float: left;
+	position: relative;
+	
+}
+.sidebar a:hover {
+	transform: translateY(-1%);
+	height: 1.4em;
+	font-size: 170%
+}
+.side1  {
+	background: url(images/tech1.jpg);
+	background-position: -10%;
+}
+.side2  {
+	background: url(images/tech1.jpg);
+	background-position: -25%;
+}
+.side3  {
+	background: url(images/tech1.jpg);
+	background-position: -50%;
+}
+.side4  {
+	background: url(images/tech1.jpg);
+	background-position: -75%;
+}
+h1 {
+	color: white;
+	font-size: 200%;
+	text-align: center;
+}
+ul { 
+	list-style-type: none;
+}
+a {
+	color: gold;
+}
+a:hover {
+	color: purple;
+}
+.featured-images li {
+	padding: 0 auto 1% 1%;
+	border: .2em solid black;
+	margin: 1%;
+	height: 8em;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s ease;
+	background: linear-gradient(rgba(0, 255, 255, 0.8), rgba(0, 0, 255, 0.8));
+
+}
+.featured-images li:hover {
+	transform: translateY(-10%);
+
+	font-size: 120%;
+}
+.top-bar {
+	width: 97%;
+	margin: .3%;
+	padding: 1%; 
+	background-color: darkgrey;
+	background: url(images/tech1.jpg);
+	background-position: -450px;
+	border: .2em solid black;
+	border-radius: .5em;
+}
+
+
+	
+.nav li {
+	display: inline;
+	padding: .8%;
+	border: .1em solid black;
+	background: url(images/tech1.jpg);
+	box-shadow: 0 .3em .6em rgba(0, 0, 0, 0.75);
+	border-radius: .5em;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s ease;
+}	
+.nav li:hover {
+	font-size: 170%;
+}
+
+.featured-images {
+	position: absolute;
+	
+	left: 25%;
+	width: 70%;
+}
+.featured-images img {
+	width: 200px;
+	height: 100%;
+
+}
+.featured-images a {
+	position: relative;
+	top: -50%;
+	left: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+	html {
+		background-size: 120%;
+	}
+	
+}
+
+@media screen and (max-width: 800px) {
+	html {
+		background-size: 150%
+	}
+
+}
+
+
+@media screen and (max-width: 680px) {
+	html {
+		background-size: 170%
+	}
+	.featured-images img {
+		width: 100%;
+	}
+	.featured-images li {
+		width: 90%;
+		height: 400%;
+	}
+	.featured-images a {
+		padding: 5%;
+	}
+	.foot {
+		top: 85em;
+	}
+}	
+
+@media screen and (max-width: 630px) {
+	.sidebar {
+		float: none;
+		width: 20%;
+	}
+	.featured-images {
+		left: 15%;
+	}
+	.foot {
+		top: 95em;
+	}
+}
+	
+@media screen and (max-width: 570px) {
+	html {
+		background-size: 190%
+	}
+	
+}
+
+	
+
+@media screen and (max-width: 530px) {
+	html {
+		background-size: 260%;
+	}
+}
+
+
+@media screen and (max-width: 430px) {
+	html {
+		background-size: 270%;
+	}
+}
+@media screen and (max-width: 395px) {
+	.nav li {
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 375px) {
+
+	html {
+		background-size: 300%;
+	}
+	.sidebar {
+		width: 30%;
+	}
+}
+@media screen and (max-width: 340px) {
+	html {
+		background-size: 400%;
+	}
+}
+@media screen and (max-width: 320px) {
+	.sidebar a:hover {
+		transform: translateY(-1%);
+		height: 120%;
+		width: 250%;
+		font-size: 120%
+	}
+	.foot {
+		top: 75em;
+	}
+}
+@media screen and (max-width: 290px) {
+	h1 { 
+	font-size: 150%;
+	}
+}
+@media screen and (max-width: 290px) {
+	html {
+		background-size: 600%;
+	}
+}
+@media screen and (max-width: 230px) {
+	h1 { 
+	font-size: 110%;
+	}
+	.featured-images {
+		width : 100%;
+		
+	}
+	.featured-images li {
+		position: relative;
+		left: -14%;
+	}
+}
+@media screen and (max-width: 190px) {
+	html {
+		background-size: 800%;
+	}
+}
+@media screen and (max-width: 190px) {
+	h1 { 
+	font-size: 100%;
+	}
+}
